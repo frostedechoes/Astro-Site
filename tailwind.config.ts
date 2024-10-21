@@ -46,8 +46,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
-				serif: [...fontFamily.serif],
+				sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+				serif: ['Georgia', 'ui-serif', 'serif'],
 			},
 			transitionProperty: {
 				height: "height",
